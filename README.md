@@ -12,7 +12,7 @@ $ npm install -g json-schema-server
 Then starts a server for your JSON-Schema files:
 
 ```bash
-$ json-schema-server [path] -p 5000
+$ json-schema-server [dir] -p 5000
 ```
 
 Now you can make requests through the created server:
