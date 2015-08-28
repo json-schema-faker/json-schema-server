@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "CLI utility for serving JSON-Schema with faking support",
   "bin": {
-    "jsf": "bin/cli.js"
+    "json-schema-server": "bin/cli.js"
   },
   "author": {
     "name": "Alvaro Cabrera",
