@@ -29,7 +29,7 @@ function printUsage(message) {
   }
 
   utils.println(utils.style([
-    'Usage: {yellow|' + Object.keys(pkg.bin)[0] + '} [path] {cyan|opts}',
+    'Usage: {yellow|' + Object.keys(pkg.bin)[0] + '} [dir] {cyan|opts}',
     '',
     'Options:',
     '  {cyan|-p}, {cyan|--port}      {blue|number}   The port used for serving schemas',
