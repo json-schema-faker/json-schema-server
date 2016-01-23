@@ -1,17 +1,22 @@
 {
   "name": "json-schema-server",
-  "version": "0.0.0",
-  "description": "CLI utility for serving JSON-Schema with faking support",
+  "version": "0.1.0",
+  "description": "CLI server utility for JSON-Schema-faker",
+  "main": "index.js",
   "bin": {
-    "json-schema-server": "bin/cli.js"
+    "json-schema-server": "index.js"
   },
-  "author": {
+  "contributors": [{
     "name": "Alvaro Cabrera",
     "email": "pateketrueke@gmail.com"
-  },
+  }, {
+    "name": "Tomasz Ducin",
+    "email": "tomasz@ducin.it",
+    "url": "http://ducin.it"
+  }],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pateketrueke/json-schema-faker"
+    "url": "https://github.com/json-schema-faker/json-schema-server"
   },
   "license": "MIT",
   "keywords": [
@@ -26,11 +31,11 @@
     "grunt-parts": "^0.5.7"
   },
   "dependencies": {
-    "cli-color": "^1.0.0",
-    "express": "^4.13.3",
-    "glob": "^5.0.14",
-    "json-schema-faker": "^0.2.0",
+    "json-schema-faker": "^0.2.6",
+    "cli-color": "^1.1.0",
+    "express": "^4.13.4",
+    "glob": "^6.0.4",
     "minimist": "^1.2.0",
-    "refaker": "^0.2.5"
+    "refaker": "^0.3.1"
   }
 }

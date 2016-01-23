@@ -4,6 +4,8 @@
 *.log
 .DS_Store
 
+.idea
+
 /tmp
 /dist
 /build
