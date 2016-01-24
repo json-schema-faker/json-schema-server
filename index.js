@@ -36,7 +36,7 @@ if (argv.version) {
   // check if schema directory is correct (cwd by default)
   var schemaDir = path.resolve(argv._[0] || '.');
   if (!utils.is_dir(schemaDir)) {
-    this.printError('Invalid schema directory');
+    cli.printError('Invalid schema directory');
     process.exit(1);
   }
 
@@ -46,9 +46,12 @@ if (argv.version) {
     port: argv.port || process.env.PORT || constants.port,
     fakeroot: argv.fakeroot || constants.fakeroot,
     formats: argv.formats && path.resolve(argv.formats)
-  }, function () {
-    this.printError();
-    process.exit(1);
+  }, function (err) {
+    if (err) {
+      cli.printError(err);
+      process.exit(1);
+    }
+    gracefulExit();
   });
 }
 
