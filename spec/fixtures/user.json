@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "id-schema.json" },
+    "email": { "$ref": "email.schema" }
+  },
+  "required": ["id", "email"]
+}

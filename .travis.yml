@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- 0.10
+- 0.12
+- iojs
+before_script:
+- 'npm install -g grunt-cli coveralls'
+script:
+- 'grunt spec && cat generated/reports/spec/lcov.info | coveralls'
