@@ -1,7 +1,12 @@
 JSON-Schema Server
 ==================
 
-[![Build Status](https://travis-ci.org/json-schema-faker/json-schema-server.png?branch=master)](https://travis-ci.org/json-schema-faker/json-schema-server) [![NPM version](https://badge.fury.io/js/json-schema-server.png)](http://badge.fury.io/js/json-schema-server) [![Coverage Status](https://coveralls.io/repos/json-schema-faker/json-schema-server/badge.png?branch=master)](https://coveralls.io/r/json-schema-faker/json-schema-server?branch=master)
+[![Build Status](https://travis-ci.org/json-schema-faker/json-schema-server.png?branch=master)](https://travis-ci.org/json-schema-faker/json-schema-server)
+[![NPM version](https://badge.fury.io/js/json-schema-server.png)](http://badge.fury.io/js/json-schema-server)
+[![Coverage Status](https://coveralls.io/repos/json-schema-faker/json-schema-server/badge.png?branch=master)](https://coveralls.io/r/json-schema-faker/json-schema-server?branch=master)
+
+[![Dependency Status](https://david-dm.org/json-schema-faker/json-schema-server/status.svg)](https://david-dm.org/json-schema-faker/json-schema-server)
+[![devDependency Status](https://david-dm.org/json-schema-faker/json-schema-server/dev-status.svg)](https://david-dm.org/json-schema-faker/json-schema-server#info=devDependencies)
 
 Install `json-schema-server` globally:
 
