@@ -1,6 +1,6 @@
 {
   "name": "json-schema-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI server utility for JSON-Schema-faker",
   "main": "index.js",
   "bin": {
@@ -31,7 +31,7 @@
     "grunt-parts": "^0.5.7"
   },
   "dependencies": {
-    "json-schema-faker": "^0.2.6",
+    "json-schema-faker": "^0.2.7",
     "cli-color": "^1.1.0",
     "express": "^4.13.4",
     "glob": "^6.0.4",
