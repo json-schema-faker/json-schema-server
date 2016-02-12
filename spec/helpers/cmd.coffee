@@ -13,7 +13,7 @@ execCommand = (cmd, callback) ->
   execCommand.stderr = ''
   execCommand.exitStatus = null
 
-  cli = ['./index.js']
+  cli = ['./bin/json-schema-server']
 
   if typeof cmd is 'function'
     callback = cmd
