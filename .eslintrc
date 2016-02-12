@@ -5,7 +5,8 @@
   },
   "rules": {
     "quotes": [1, "single", "avoid-escape"],
-    "strict": [1, "global"]
+    "strict": [1, "global"],
+    "camelcase": [0]
   },
   "ecmaFeatures": {
     "modules": true
