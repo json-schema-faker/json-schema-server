@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-'use strict';
-
 // process command line arguments and options
 
 var minimist = require('minimist');
@@ -23,10 +21,10 @@ var argv = minimist(process.argv.slice(2), {
 
 var path = require('path');
 
-var server = require('./lib/server'),
-  constants = require('./lib/constants'),
-  cli = require('./lib/cli'),
-  utils = require('./lib/utils');
+var server = require('../lib/server'),
+  constants = require('../lib/constants'),
+  cli = require('../lib/cli'),
+  utils = require('../lib/utils');
 
 if (argv.version) {
   cli.printVersion();

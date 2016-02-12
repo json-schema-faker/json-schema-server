@@ -4,7 +4,7 @@
   "description": "CLI server utility for JSON-Schema-faker",
   "main": "index.js",
   "bin": {
-    "json-schema-server": "index.js"
+    "json-schema-server": "bin/json-schema-faker"
   },
   "contributors": [{
     "name": "Alvaro Cabrera",
