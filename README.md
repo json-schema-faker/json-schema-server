@@ -39,3 +39,7 @@ Options
 If no `dir` is provided `process.cwd()` will be used instead.
 
 Run `json-schema-server -h` to display all usage info.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/json-schema-faker/json-schema-server/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
