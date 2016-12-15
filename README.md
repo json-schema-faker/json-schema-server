@@ -8,10 +8,6 @@ JSON-Schema Server
 [![Dependency Status](https://david-dm.org/json-schema-faker/json-schema-server/status.svg)](https://david-dm.org/json-schema-faker/json-schema-server)
 [![devDependency Status](https://david-dm.org/json-schema-faker/json-schema-server/dev-status.svg)](https://david-dm.org/json-schema-faker/json-schema-server#info=devDependencies)
 
-[![travis-ci](https://api.travis-ci.org/pateketrueke/json-schema-sequelizer.svg)](https://travis-ci.org/pateketrueke/json-schema-sequelizer)
-
-
-
 Install `json-schema-server` globally:
 
 ```bash
