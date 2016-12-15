@@ -17,6 +17,14 @@
       "url": "http://ducin.it"
     }
   ],
+  "scripts": {
+    "dev": "jasmine-node spec --coffee --verbose --autoTest --watchFolders lib",
+    "dev:lint": "eslint lib spec",
+    "dev:spec": "jasmine-node spec --coffee --noStackTrace --captureExceptions",
+    "cover": "istanbul cover --root lib --x '**/spec/**' -- jasmine-node --coffee spec",
+    "cover:up": "codecov --file=coverage/lcov.info --disable=gcov -e TRAVIS_NODE_VERSION",
+    "test": "npm run dev:lint && npm run dev:spec --"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/json-schema-faker/json-schema-server"
@@ -30,11 +38,15 @@
     "server"
   ],
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-parts": "^0.5.7"
+    "codecov": "^1.0.1",
+    "eslint": "^3.12.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "istanbul": "^0.4.5",
+    "jasmine-node": "2.0.0-beta4"
   },
   "dependencies": {
-    "json-schema-faker": "^0.3.7",
+    "json-schema-faker": "^0.4.0",
     "cli-color": "^1.1.0",
     "express": "^4.13.4",
     "glob": "^7.0.3",

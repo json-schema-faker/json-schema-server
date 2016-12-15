@@ -14,6 +14,7 @@ Gruntfile.*
 /build
 /reports
 /package
+/coverage
 /generated
 /node_modules
 /bower_components

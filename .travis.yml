@@ -2,7 +2,9 @@ language: node_js
 node_js:
   - 4
   - 6
-before_script:
-- 'npm install -g grunt-cli coveralls'
 script:
-- 'grunt spec && cat generated/reports/spec/lcov.info | coveralls'
+  - 'yarn cover'
+after_success:
+  - 'yarn cover:up'
+notifications:
+  email: false
