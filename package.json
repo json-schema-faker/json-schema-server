@@ -46,11 +46,10 @@
     "jasmine-node": "2.0.0-beta4"
   },
   "dependencies": {
-    "json-schema-faker": "^0.4.0",
     "cli-color": "^1.1.0",
     "express": "^4.13.4",
     "glob": "^7.0.3",
-    "minimist": "^1.2.0",
-    "refaker": "^0.3.1"
+    "json-schema-faker": "^0.4.0",
+    "minimist": "^1.2.0"
   }
 }
