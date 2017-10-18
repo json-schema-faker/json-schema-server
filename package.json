@@ -1,6 +1,6 @@
 {
   "name": "json-schema-server",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "CLI server utility for JSON-Schema-faker",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,8 @@
     "dev:spec": "jasmine-node spec --coffee --noStackTrace --captureExceptions",
     "cover": "istanbul cover --root lib --x '**/spec/**' -- jasmine-node --coffee spec",
     "cover:up": "codecov --file=coverage/lcov.info --disable=gcov -e TRAVIS_NODE_VERSION",
-    "test": "npm run dev:lint && npm run dev:spec --"
+    "test": "npm run dev:lint && npm run dev:spec --",
+    "server": "json-schema-server spec/fictures --fakeroot"
   },
   "repository": {
     "type": "git",
@@ -49,7 +50,7 @@
     "cli-color": "^1.1.0",
     "express": "^4.13.4",
     "glob": "^7.0.3",
-    "json-schema-faker": "^0.4.0",
+    "json-schema-faker": "^0.4.6",
     "minimist": "^1.2.0"
   }
 }
