@@ -2,9 +2,10 @@ language: node_js
 node_js:
   - 4
   - 6
+  - 8
 script:
-  - 'yarn cover'
+  - 'npm run cover'
 after_success:
-  - 'yarn cover:up'
+  - 'npm run cover:up'
 notifications:
   email: false
