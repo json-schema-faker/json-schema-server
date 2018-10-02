@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-  - 4
   - 6
   - 8
+  - 10
 script:
-  - 'npm run cover'
+  - 'npm run test:ci'
 after_success:
   - 'npm run cover:up'
 notifications:
