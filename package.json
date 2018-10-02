@@ -2,7 +2,7 @@
   "name": "json-schema-server",
   "version": "0.4.0",
   "description": "CLI server utility for JSON-Schema-faker",
-  "main": "index.js",
+  "main": "lib/cli.js",
   "bin": {
     "json-schema-server": "bin/json-schema-server"
   },
@@ -21,7 +21,7 @@
     "test": "npm run test:unit --",
     "test:ci": "npm run coverage:unit && npm run report -- -r lcov",
     "test:run": "NODE_ENV=test _mocha --exit --recursive --watch-extensions js,json,schema -bR spec",
-    "test:unit": "npm run test:run tests && npm run report -- -r html",
+    "test:unit": "npm run test:run tests",
     "test:server": "bin/json-schema-server tests/fixtures --fakeroot",
     "coverage": "nyc -x '**/tests/**' -x '**/*.test.js'",
     "coverage:unit": "npm run coverage -- npm run test:unit",

@@ -10,15 +10,15 @@ describe('CLI options', () => {
     });
 
     it('should exit with 1', () => {
-      expect(cmd.exitStatus).toBe(1);
+      expect(cmd.exitStatus).to.eql(1);
     });
 
     it('should not have stdout', () => {
-      expect(cmd.stdout).toBe('');
+      expect(cmd.stdout).to.eql('');
     });
 
     it('should report on stderr', () => {
-      expect(cmd.stderr).toContain('Invalid schema directory');
+      expect(cmd.stderr).to.contain('Invalid schema directory');
     });
   });
 
@@ -28,11 +28,11 @@ describe('CLI options', () => {
     });
 
     it('should exit with 1', () => {
-      expect(cmd.exitStatus).toBe(1);
+      expect(cmd.exitStatus).to.eql(1);
     });
 
     it('should report on stderr', () => {
-      expect(cmd.stderr).toContain('Cannot find module');
+      expect(cmd.stderr).to.contain('Cannot find module');
     });
   });
 });
