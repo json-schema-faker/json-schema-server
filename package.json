@@ -39,18 +39,21 @@
     "server"
   ],
   "devDependencies": {
-    "codecov": "^3.0.0",
-    "eslint": "^4.1.0",
-    "eslint-config-airbnb-base": "^12.0.1",
+    "chai": "^4.2.0",
+    "codecov": "^3.1.0",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.2.0",
     "istanbul": "^0.4.5",
-    "jasmine-node": "2.0.0-beta4"
+    "mocha": "^5.2.0"
   },
   "dependencies": {
+    "chance": "^1.0.16",
     "cli-color": "^1.1.0",
     "express": "^4.13.4",
+    "faker": "^4.1.0",
     "glob": "^7.0.3",
-    "json-schema-faker": "^0.4.6",
+    "json-schema-faker": "^0.5.0-rc16",
     "minimist": "^1.2.0"
   }
 }
