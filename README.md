@@ -1,6 +1,6 @@
 # JSON-Schema Server
 
-[![Build Status](https://travis-ci.org/json-schema-faker/json-schema-server.png?branch=master)](https://travis-ci.org/json-schema-faker/json-schema-server)
+[![Build status](https://github.com/json-schema-faker/json-schema-server/workflows/ci/badge.svg)](https://github.com/json-schema-faker/json-schema-server/actions)
 [![NPM version](https://badge.fury.io/js/json-schema-server.png)](http://badge.fury.io/js/json-schema-server)
 [![Coverage Status](https://codecov.io/gh/json-schema-faker/json-schema-server/branch/master/graph/badge.svg)](https://codecov.io/gh/json-schema-faker/json-schema-server)
 
