@@ -1,8 +1,9 @@
 {
   "type": "object",
   "properties": {
-    "id": { "$ref": "id-schema.json" },
+    "id": { "$ref": "id-schema.json", "param": "userId" },
     "email": { "$ref": "email.schema" }
   },
-  "required": ["id", "email"]
+  "required": ["id", "email"],
+  "routes": ["GET /user/:userId"]
 }

@@ -49,5 +49,12 @@ describe('Server', () => {
         done();
       });
     });
+    it('should responds to registered routes from schemas', done => {
+      fetch('http://localhost:9002/user/42', (err, response) => {
+        expect(err).to.be.null;
+        expect(response.status).to.eql(200);
+        done();
+      });
+    });
   });
 });
