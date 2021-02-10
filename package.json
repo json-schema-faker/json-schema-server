@@ -1,6 +1,6 @@
 {
   "name": "json-schema-server",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "CLI server utility for JSON-Schema-faker",
   "main": "lib/cli.js",
   "bin": {
