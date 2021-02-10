@@ -58,7 +58,7 @@
     "faker": "^5.3.1",
     "glob": "^7.0.3",
     "grown": "^1.1.28",
-    "json-schema-faker": "^0.5.0-rcv.32",
+    "json-schema-faker": "^0.5.0-rcv.33",
     "wargs": "^0.9.2"
   }
 }
