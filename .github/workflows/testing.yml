@@ -8,7 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          export CODECOV_TOKEN=${{ secrets.USE_CODECOV_TOKEN }}
           export U_WEBSOCKETS_SKIP=1
           npm ci
           npm run test:ci
