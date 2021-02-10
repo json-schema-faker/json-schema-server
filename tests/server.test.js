@@ -45,7 +45,7 @@ describe('Server', () => {
       fetch('http://localhost:9002/im_not_exists', (err, response) => {
         expect(err).to.be.null;
         expect(response.status).to.eql(404);
-        expect(response.json.error).to.eql("Cannot 'GET /im_not_exists'");
+        expect(response.json.message).to.eql("Cannot 'GET /im_not_exists'");
         done();
       });
     });
