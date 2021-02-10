@@ -1,0 +1,13 @@
+name: ci
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          export CODECOV_TOKEN=${{ secrets.USE_CODECOV_TOKEN }}
+          npm run test:ci
+          npm run codecov
